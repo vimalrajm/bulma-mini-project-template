@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>New Book</title>
+    <link rel="icon" href="./images/logo.jpg" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="hero is-small">
+      <div class="hero-body">
+        <nav class="navbar has-shadow">
+          <div class="navbar-brand">
+            <a class="navbar-item image is-64x64">
+              <img src="./images/logo.jpg" />
+            </a>
+          </div>
+          <div class="navbar-menu">
+            <div class="navbar-start">
+              <p class="navbar-item ">
+                <small>Publishing of the speed of the technology</small>
+              </p>
+            </div>
+            <hr />
+            <div class="navbar-end">
+              <div class="navbar-item"></div>
+              <div class="navbar-item has-dropdown is-hoverable">
+                <div class="navbar-link">
+                  Vimal Raj M
+                </div>
+                <div class="navbar-dropdown">
+                  <a class="navbar-item">
+                    <div>
+                      <span class="icon is-small">
+                        <i class="fa fa-user-circle-o "></i>
+                      </span>
+                      Profile
+                    </div>
+                  </a>
+                  <a class="navbar-item">
+                    <div>
+                      <span class="icon is-small">
+                        <i class="fa fa-bug"></i>
+                      </span>
+                      Report Bug
+                    </div>
+                  </a>
+                  <a class="navbar-item">
+                    <div>
+                      <span class="icon is-small">
+                        <i class="fa fa-sign-out "></i>
+                      </span>
+                      Sign Out
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="columns">
+          <div class="column is-2">
+            <nav class="menu">
+              <div class="menu-label">
+                Menu
+              </div>
+              <div class="menu-list">
+                <a href="#">
+                  <span class="icon">
+                    <i class="fa fa-tachometer"></i>
+                  </span>
+                  DashBoard
+                </a>
+
+                <a href="books.html" class="is-active">
+                  <span class="icon">
+                    <i class="fa fa-book"></i>
+                  </span>
+                  Books
+                </a>
+
+                <a href="customers.html">
+                  <span class="icon">
+                    <i class="fa fa-address-book"></i>
+                  </span>
+                  Customers
+                </a>
+
+                <a href="#">
+                  <span class="icon">
+                    <i class="fa fa-file-text-o"></i>
+                  </span>
+                  Orders
+                </a>
+              </div>
+            </nav>
+          </div>
+          <div class="column is-10">
+            <nav class="breadcrumb">
+              <ul>
+                <li>
+                  <a href="books.html">Books</a>
+                </li>
+                <li class="is-active">
+                  <a href="#">New Book</a>
+                </li>
+              </ul>
+            </nav>
+            <form>
+              <div class="columns">
+                <div class="column">
+                  <div class="field">
+                    <label>Title</label>
+                    <div class="control">
+                      <input
+                        type="text"
+                        class="input"
+                        placeholder="e.g. Designing with bulma"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="columns">
+                <div class="column">
+                  <div class="field">
+                    <label>
+                      Price
+                    </label>
+                    <div class="control">
+                      <input
+                        type="text"
+                        class="input"
+                        placeholder="$ e.g.22.99"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="field">
+                    <label>
+                      Pages
+                    </label>
+                    <div class="control">
+                      <input type="text" class="input" placeholder="e.g.270" />
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="field">
+                    <label>
+                      ISBN
+                    </label>
+                    <div class="control">
+                      <input
+                        type="text"
+                        class="input"
+                        placeholder="e.g.1231434664647"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="columns">
+                <div class="column">
+                  <div class="field">
+                    <label class="label">Cover Image</label>
+                    <div class="control">
+                      <div class="file has-name">
+                        <label class="file-label">
+                          <input type="file" class="file-input" />
+                          <span class="file-cta">
+                            <span class="file-icon">
+                              <i class="fa fa-upload"></i>
+                            </span>
+                            <span class="file-label">
+                              Choose a file...
+                            </span>
+                          </span>
+                          <span class="file-name">
+                            No chosen file
+                          </span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="columns">
+                <div class="column">
+                  <div class="field">
+                    <div class="buttons">
+                      <button class="is-medium is-success button">
+                        Create
+                      </button>
+                      <button class="is-medium is-light button">
+                        Cancel
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

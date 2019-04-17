@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="./images/logo.jpg">
+    <title>Books</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="hero is-small">
+      <div class="hero-body">
+              <nav class="navbar has-shadow">
+                  <div class="navbar-brand">
+                    <a class="navbar-item image is-64x64">
+                        <img src="./images/logo.jpg">
+                    </a>
+                  </div>
+                  <div class="navbar-menu">
+                    <div class="navbar-start">
+                        <p class="navbar-item ">
+                          <small>Publishing of the speed of the technology</small></p> 
+                    </div>
+                    <hr>
+                    <div class="navbar-end">
+                      <div class="navbar-item">
+                      </div>
+                       <div class="navbar-item has-dropdown is-hoverable">
+                         <div class="navbar-link">
+                           Vimal Raj M
+                         </div>
+                         <div class="navbar-dropdown">
+                           <a class="navbar-item">
+                            <div> 
+                            <span class="icon is-small">
+                               <i class="fa fa-user-circle-o "></i>
+                             </span>
+                             Profile
+                            </div>
+                            </a>
+                            <a class="navbar-item">
+                                <div> 
+                                <span class="icon is-small">
+                                   <i class="fa fa-bug"></i>
+                                 </span>
+                                 Report Bug
+                                </div>
+                                </a>
+                                <a class="navbar-item">
+                                    <div> 
+                                    <span class="icon is-small">
+                                       <i class="fa fa-sign-out "></i>
+                                     </span>
+                                     Sign Out
+                                    </div>
+                                    </a>
+                         </div>
+                       </div>
+                    </div>
+                  </div>
+                </nav>
+        <div class="columns">
+          <div class="column is-2">
+            <nav class="menu">
+              <div class="menu-label">
+                Menu
+              </div>
+              <div class="menu-list">
+                <a href="#">
+                  <span class="icon">
+                    <i class="fa fa-tachometer"></i>
+                  </span>
+                  DashBoard
+                </a>
+    
+                <a href="books.html" class="is-active">
+                  <span class="icon">
+                    <i class="fa fa-book"></i>
+                  </span>
+                  Books
+                </a>
+    
+                <a href="customers.html">
+                  <span class="icon">
+                    <i class="fa fa-address-book"></i>
+                  </span>
+                  Customers
+                </a>
+    
+                <a href="#">
+                  <span class="icon">
+                    <i class="fa fa-file-text-o"></i>
+                  </span>
+                  Orders
+                </a>
+              </div>
+            </nav>
+          </div>
+          <div class="column is-10" >
+            <h1 class="title">Books</h1>
+            <nav class="level">
+              <div class="level-right">
+                <div class="level-item">
+                  <p class="subtitle">
+                    <span class="has-text-weight-bold">6</span> books
+                  </p>
+                </div>
+                <div class="level-item">
+                  <p>
+                    <a href="new-book.html" class="button is-success">New</a>
+                  </p>
+                </div>
+                <div class="level-item">
+                  <p class="control">
+                    <input
+                      class="input"
+                      type="text"
+                      placeholder="Book name, ISBN"
+                    />
+                  </p>
+                  <button class="button">Search</button>
+                </div>
+              </div>
+              <div class="level-right">
+                <div class="level-item">
+                  Order by
+                </div>
+                <div class="level-item">
+                  <div class="select">
+                    <select>
+                      <option value="1">Publish date</option>
+                      <option value="2">Price</option>
+                      <option value="3">Page count</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </nav>
+            <div class="columns">
+              <div class="column is-6">
+                <div class="box">
+                  <div class="media">
+                    <aside class="media-left">
+                      <img src="images/transflow.jpg" width="100" />
+                    </aside>
+                    <div class="media-content">
+                      <p class="has-text-link">
+                        <span class="title is-capitalized has-text-link">tensorflow for machine intelligence</span> 
+                        <h3 class="has-text-weight-semibold">$22.99<br>
+                          270 pages<br>
+                        ISBN: 972163281763<br>
+                      <a href="edit.html">Edit</a> - <a href="#">Delete</a> </h3>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column is-6">
+                  <div class="box">
+                    <div class="media">
+                      <aside class="media-left">
+                        <img src="images/docker.jpg" width="100" />
+                      </aside>
+                      <div class="media-content">
+                        <p class="has-text-link">
+                          <span class="title is-capitalized has-text-link">docker in production</span> 
+                            <h3 class="has-text-weight-semibold">$22.99<br>
+                              170 pages<br>
+                            ISBN: 889788989798<br>
+                          <a href="edit.html">Edit</a> - <a href="#">Delete</a> </h3>
+                          </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="columns">
+              <div class="column is-6">
+                  <div class="box">
+                    <div class="media">
+                      <aside class="media-left">
+                        <img src="images/gulp.jpg" width="100" />
+                      </aside>
+                      <div class="media-content">
+                        <p class="has-text-link">
+                          <span class="title is-capitalized has-text-link">developing a gulp.js edge</span> 
+                            <h3 class="has-text-weight-semibold">$22.99<br>
+                              134 pages<br>
+                            ISBN: 6573927749737<br>
+                          <a href="edit.html">Edit</a> - <a href="#">Delete</a> </h3>
+                          </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="column is-6">
+                    <div class="box">
+                      <div class="media">
+                        <aside class="media-left">
+                          <img src="images/swift.jpg" width="100" />
+                        </aside>
+                        <div class="media-content">
+                          <p class="has-text-link">
+                            <span class="title is-capitalized has-text-link">learning swift</span> 
+                              <h3 class="has-text-weight-semibold">$22.99<br>
+                                345 pages<br>
+                              ISBN: 561346364277<br>
+                            <a href="edit.html">Edit</a> - <a href="#">Delete</a> </h3>
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="columns">
+                <div class="column is-6">
+                    <div class="box">
+                      <div class="media">
+                        <aside class="media-left">
+                          <img src="images/js.jpg" width="100" />
+                        </aside>
+                        <div class="media-content">
+                          <p class="has-text-link">
+                            <span class="title is-capitalized has-text-link">choosing a javascript framework</span> 
+                              <h3 class="has-text-weight-semibold">$19.99<br>
+                                96 pages<br>
+                              ISBN: 8788676787676<br>
+                            <a href="edit.html">Edit</a> - <a href="#">Delete</a> </h3>
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column is-6">
+                      <div class="box">
+                        <div class="media">
+                          <aside class="media-left">
+                            <img src="images/google.jpg" width="100" />
+                          </aside>
+                          <div class="media-content">
+                            <p class="has-text-link">
+                              <span class="title is-capitalized has-text-link">deconstructing google cardboard apps</span> 
+                                <h3 class="has-text-weight-semibold">$22.99<br>
+                                  176 pages<br>
+                                ISBN: 2445361625234<br>
+                              <a href="edit.html">Edit</a> - <a href="#">Delete</a> </h3>
+                              </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <nav class="pagination">
+                <a href="#" class="pagination-previous">Previous</a>
+                <a href="#" class="pagination-next">Next</a>
+                <ul class="pagination-list">
+                  <li>
+                    <a href=""class="pagination-link">1</a>
+                  </li>
+                  <li>
+                    <span class="pagination-el1ipsis">&hellip;</span>
+                  </li>
+                  <li>
+                      <a href=""class="pagination-link">10</a>
+                  </li>
+                  <li>
+                      <a href=""class="pagination-link is-current">11</a>
+                  </li>
+                  <li>
+                      <a href=""class="pagination-link">12</a>
+                  </li>
+                  <li>
+                      <span class="pagination-el1ipsis">&hellip;</span>
+                  </li>
+                  <li>
+                      <a href=""class="pagination-link">20</a>
+                  </li>
+                </ul>
+              </nav>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
