@@ -89,14 +89,14 @@
                   Books
                 </a>
 
-                <a href="customers.html" class="is-active">
+                <a href="customers.html">
                   <span class="icon">
                     <i class="fa fa-address-book"></i>
                   </span>
                   Customers
                 </a>
 
-                <a href="orders.html">
+                <a href="orders.html" class="is-active">
                   <span class="icon">
                     <i class="fa fa-file-text-o"></i>
                   </span>
@@ -106,12 +106,12 @@
             </nav>
           </div>
           <div class="column is-10">
-            <h1 class="title">Customers</h1>
+            <h1 class="title">Orders</h1>
             <nav class="level">
               <div class="level-right">
                 <div class="level-item">
                   <p class="subtitle">
-                    <span class="has-text-weight-bold">3</span> customers
+                    <span class="has-text-weight-bold">2</span> orders
                   </p>
                 </div>
                 <div class="level-item">
@@ -126,7 +126,7 @@
                     <input
                       class="input"
                       type="text"
-                      placeholder="Name, email..."
+                      placeholder="Order #, customer..."
                     />
                   </p>
                   <button class="button">Search</button>
@@ -151,16 +151,18 @@
                     <th class="is-narrow">
                       <input type="checkbox" />
                     </th>
-                    <th>Name</th>
-                    <th>Email</th>
-                    <th>Country</th>
-                    <th>Orders</th>
-                    <th>Actions</th>
+                    <th>Order #</th>
+                    <th>Customer</th>
+                    <th>Date</th>
+                    <th>Books</th>
+                    <th>Status</th>
+                    <th class="has-text-right">Total</th>
                   </tr>
                 </thead>
                 <tfoot>
                   <tr>
                     <th class="is-narrow"></th>
+                    <th></th>
                     <th></th>
                     <th></th>
                     <th></th>
@@ -174,76 +176,39 @@
                       <input type="checkbox" />
                     </td>
                     <td>
-                      <a href="edit-customer.html"><strong>vimal</strong></a>
+                      <a href="edit-order.html"><strong>786123</strong></a>
                     </td>
-                    <td><code>vimal@gmail.com</code></td>
-                    <td>INDIA</td>
-                    <td><a href="customer-orders.htmml">2</a></td>
-                    <td>
-                      <div class="buttons">
-                        <a href="edit-customer.html" class="button is-small"
-                          >Edit</a
-                        >
-                        <a class="button is-small">Delete</a>
-                      </div>
-                    </td>
+                    <td><a href="edit-customer.htmml">vimal</a></td>
+                    <td>NOV 18, 17:38</td>
+                    <td>2</td>
+                    <td><span class="tag is-warning">In progress</span></td>
+                    <td class="has-text-right">$32.56</td>
                   </tr>
                   <tr>
                     <td class="is-narrow">
                       <input type="checkbox" />
                     </td>
                     <td>
-                      <a href="edit-customer.html"><strong>dinesh</strong></a>
+                      <a href="edit-order.html"><strong>324234</strong></a>
                     </td>
-                    <td><code>dinesh@gmail.com</code></td>
-                    <td>INDIA</td>
-                    <td><a href="customer-orders.htmml">5</a></td>
-                    <td>
-                      <div class="buttons">
-                        <a href="edit-customer.html" class="button is-small"
-                          >Edit</a
-                        >
-                        <a class="button is-small">Delete</a>
-                      </div>
-                    </td>
+                    <td><a href="edit-customer.htmml">dinesh</a></td>
+                    <td>DEC 22, 02:30</td>
+                    <td>2</td>
+                    <td><span class="tag is-success">Success</span></td>
+                    <td class="has-text-right">$222.222</td>
                   </tr>
                   <tr>
                     <td class="is-narrow">
                       <input type="checkbox" />
                     </td>
                     <td>
-                      <a href="edit-customer.html"><strong>lakshman</strong></a>
+                      <a href="edit-order.html"><strong>987887</strong></a>
                     </td>
-                    <td><code>lakshman@gmail.com</code></td>
-                    <td>INDIA</td>
-                    <td><a href="customer-orders.htmml">3</a></td>
-                    <td>
-                      <div class="buttons">
-                        <a href="edit-customer.html" class="button is-small"
-                          >Edit</a
-                        >
-                        <a class="button is-small">Delete</a>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="is-narrow">
-                      <input type="checkbox" />
-                    </td>
-                    <td>
-                      <a href="edit-customer.html"><strong>aditya</strong></a>
-                    </td>
-                    <td><code>aditya@gmail.com</code></td>
-                    <td>INDIA</td>
-                    <td><a href="customer-orders.htmml">3</a></td>
-                    <td>
-                      <div class="buttons">
-                        <a href="edit-customer.html" class="button is-small"
-                          >Edit</a
-                        >
-                        <a class="button is-small">Delete</a>
-                      </div>
-                    </td>
+                    <td><a href="edit-customer.htmml">aditya</a></td>
+                    <td>JAN 8, 08:10</td>
+                    <td>2</td>
+                    <td><span class="tag is-danger">Failed</span></td>
+                    <td class="has-text-right">$123.56</td>
                   </tr>
                 </tbody>
               </table>
